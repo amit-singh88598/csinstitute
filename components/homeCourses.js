@@ -4,7 +4,6 @@ import 'react-multi-carousel/lib/styles.css';
 import { useRouter } from 'next/router';
 import { Button, Grid, makeStyles } from '@material-ui/core';
 import { ArrowForward } from '@material-ui/icons';
-import Divider from '../components/divider';
 
 const useStyles = makeStyles((theme) => ({
 	btnMore: {

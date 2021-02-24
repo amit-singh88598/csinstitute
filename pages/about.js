@@ -9,8 +9,8 @@ import Head from 'next/head';
 
 const useStyles = makeStyles((theme) => ({
 	introSection: {
-		paddingLeft: 50,
-		paddingRight: 50,
+		// paddingLeft: 50,
+		paddingRight: 30,
 		paddingTop: 40,
 		paddingBottom: 60,
 		backgroundColor: '#ffffff',
@@ -77,8 +77,8 @@ function About() {
 									Computer Lab का लागि एक जनालाई एउटा Computer को व्यवस्थ शैक्षिक मैत्रीपूर्ण वातावरण
 									।Online र Offline कक्षाको सुविधा |
 								</li>
-								<Typography style={{ marginTop: 40, marginBottom: 30 }} variant="h5">
-									अनिवार्य रूपले दिनुपर्ने । प्रत्येक मासिक परिक्षा हुने व्यवस्था
+								<Typography style={{ marginTop: 40, marginBottom: 30, fontSize: '1.3em' }}>
+									अनिवार्य रूपले दिनुपर्ने । प्रत्येक मासिक परिक्षा हुने व्यवस्था |
 								</Typography>
 								<li>प्रत्येक वार्षिकमा राष्ट्रिय लेभलको प्रतियोगीतामा सामिल हुने मौका पाउने ।</li>
 								<li>
