@@ -33,6 +33,19 @@ const useStyle = makeStyles((theme) => ({
 		[theme.breakpoints.down('sm')]: {
 			fontSize: '1.5em'
 		}
+	},
+	heroImage: {
+		width: '100%',
+		height: 350,
+		width: '100%',
+		display: 'flex',
+		justifyContent: 'center',
+		[theme.breakpoints.down('sm')]: {
+			height: 250,
+			width: '100%',
+			display: 'flex',
+			justifyContent: 'center'
+		}
 	}
 }));
 
@@ -59,8 +72,8 @@ function Heros(props) {
 				</Card>
 			</Grid>
 			<Grid item xs={12} sm={6}>
-				<div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-					<img src="/autoCade.svg" height="300" alt="hero images" />
+				<div className={classes.heroImage}>
+					<img src="/autoCade.svg" alt="hero images" />
 				</div>
 			</Grid>
 		</Grid>
