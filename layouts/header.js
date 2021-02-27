@@ -104,7 +104,7 @@ export default function Header() {
 					<Link href="/">
 						<IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
 							{/* <MenuIcon /> */}
-							<img src="/hero.svg" width="150" height="60" style={{ marginTop: 5, marginBottom: 5 }} />
+							<img src="/csinstitute.jpg" width="150" height="60" style={{ marginTop: 5, marginBottom: 5 }} />
 						</IconButton>
 					</Link>
 					<Typography variant="h6" className={classes.title} />

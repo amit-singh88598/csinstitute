@@ -44,7 +44,7 @@ function Footer() {
 				<Grid container>
 					{/* this column use for logo and contact */}
 					<Grid item xs={12} md={3} sm={3}>
-						<img src="/hero.svg" width="150" height="80" />
+						<img src="/csinstitute.jpg" width="150" height="80" />
 						<Grid item xs={12} sm={12}>
 							<Chip
 								className={classes.navLink}
