@@ -7,15 +7,9 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Link from 'next/link';
-import clsx from 'clsx';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -104,9 +98,10 @@ export default function Header() {
 					<Link href="/">
 						<IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
 							{/* <MenuIcon /> */}
-							<img src="/csinstitute.jpg" width="150" height="60" style={{ marginTop: 5, marginBottom: 5 }} />
+							<img src="/cs.png" width="140" height="70" style={{ marginTop: 5, marginBottom: 5 }} />
 						</IconButton>
 					</Link>
+						<Typography style={{fontSize: "2.5em"}}>Carrier Selection Institute pvt ltd.</Typography>
 					<Typography variant="h6" className={classes.title} />
 					<div className={classes.navLink}>
 						{navLinks.map((item) => (

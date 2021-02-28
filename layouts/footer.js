@@ -30,9 +30,6 @@ const useStyles = makeStyles((theme) => ({
 		fontSize: 14,
 		color: theme.palette.secondary.white
 	},
-	flex: {
-		display: 'flex'
-	}
 }));
 
 function Footer() {
@@ -44,7 +41,7 @@ function Footer() {
 				<Grid container>
 					{/* this column use for logo and contact */}
 					<Grid item xs={12} md={3} sm={3}>
-						<img src="/csinstitute.jpg" width="150" height="80" />
+						<img src="/cs.png" width="130" height="80" />
 						<Grid item xs={12} sm={12}>
 							<Chip
 								className={classes.navLink}
@@ -96,7 +93,7 @@ function Footer() {
 									<Instagram className={classes.icon} />
 								</a>
 							</IconButton>
-							<Typography style={{ marginLeft: 10, color: '#ffffff' }}>www.esinstitute.com</Typography>
+							<Typography style={{ marginLeft: 10, color: '#ffffff' }}>www.csinstitute.com</Typography>
 						</div>
 					</Grid>
 					<Grid item xs={12} md={9} sm={9}>
