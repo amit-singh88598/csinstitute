@@ -33,6 +33,12 @@ const useStyles = makeStyles((theme) => ({
 	},
 	sidebar: {
 		backgrounColor: theme.palette.primary.main
+	},
+	titleStyle: {
+		fontSize: "2.5em",
+		[theme.breakpoints.down('sm')]: {
+			fontSize: "1em",
+		}
 	}
 }));
 
@@ -101,7 +107,7 @@ export default function Header() {
 							<img src="/cs.png" width="140" height="70" style={{ marginTop: 5, marginBottom: 5 }} />
 						</IconButton>
 					</Link>
-						<Typography style={{fontSize: "2.5em"}}>Carrier Selection Institute pvt ltd.</Typography>
+						<Typography className={classes.titleStyle}>Carrier Selection Institute pvt ltd.</Typography>
 					<Typography variant="h6" className={classes.title} />
 					<div className={classes.navLink}>
 						{navLinks.map((item) => (
